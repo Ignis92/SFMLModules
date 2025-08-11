@@ -1,4 +1,7 @@
-#include <SFML/Graphics.hpp>
+#include <iostream>
+#include <optional>
+
+import sfml.graphics;
 
 int main()
 {
@@ -17,5 +20,6 @@ int main()
 
         window.clear();
         window.display();
+
     }
 }
